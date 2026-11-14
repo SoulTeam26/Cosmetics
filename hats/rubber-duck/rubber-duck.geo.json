@@ -1,0 +1,142 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.rubber-duck",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "rubber_duck",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                32.0,
+                -3.0
+              ],
+              "size": [
+                6,
+                4,
+                7
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                34.0,
+                4.0
+              ],
+              "size": [
+                3,
+                2,
+                2
+              ],
+              "pivot": [
+                0,
+                34,
+                4
+              ],
+              "rotation": [
+                20,
+                0,
+                0
+              ],
+              "uv": [
+                28,
+                0
+              ]
+            },
+            {
+              "origin": [
+                3.0,
+                33.0,
+                -2.0
+              ],
+              "size": [
+                1,
+                2,
+                4
+              ],
+              "uv": [
+                32,
+                13
+              ]
+            },
+            {
+              "origin": [
+                -4.0,
+                33.0,
+                -2.0
+              ],
+              "size": [
+                1,
+                2,
+                4
+              ],
+              "uv": [
+                44,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "name": "duck_head",
+          "parent": "rubber_duck",
+          "pivot": [
+            0,
+            35.0,
+            -2.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.5,
+                35.0,
+                -4.0
+              ],
+              "size": [
+                5,
+                4,
+                4
+              ],
+              "uv": [
+                0,
+                13
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                35.0,
+                -6.0
+              ],
+              "size": [
+                3,
+                1,
+                2
+              ],
+              "uv": [
+                20,
+                13
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

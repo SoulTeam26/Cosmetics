@@ -1,0 +1,125 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.cowboy-hat",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "cowboy_hat",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -7.0,
+                32.0,
+                -7.0
+              ],
+              "size": [
+                14,
+                1,
+                14
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                5.5,
+                32.5,
+                -6.0
+              ],
+              "size": [
+                2,
+                1,
+                12
+              ],
+              "pivot": [
+                5.5,
+                32.5,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                20
+              ],
+              "uv": [
+                0,
+                17
+              ]
+            },
+            {
+              "origin": [
+                -7.5,
+                32.5,
+                -6.0
+              ],
+              "size": [
+                2,
+                1,
+                12
+              ],
+              "pivot": [
+                -5.5,
+                32.5,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -20
+              ],
+              "uv": [
+                30,
+                17
+              ]
+            },
+            {
+              "origin": [
+                -4.0,
+                33.0,
+                -4.0
+              ],
+              "size": [
+                8,
+                4,
+                8
+              ],
+              "uv": [
+                0,
+                32
+              ]
+            },
+            {
+              "origin": [
+                -2.0,
+                36.8,
+                -4.0
+              ],
+              "size": [
+                4,
+                1,
+                8
+              ],
+              "uv": [
+                34,
+                32
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

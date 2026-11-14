@@ -1,0 +1,176 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.flame-crown",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "flame_crown",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.5,
+                32.0,
+                -4.5
+              ],
+              "size": [
+                9,
+                2,
+                9
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame_c",
+          "parent": "flame_crown",
+          "pivot": [
+            0,
+            33.5,
+            -4.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                33.5,
+                -4.8
+              ],
+              "size": [
+                3,
+                6,
+                1
+              ],
+              "uv": [
+                38,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame_l",
+          "parent": "flame_crown",
+          "pivot": [
+            3.0,
+            33.5,
+            -4.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                2.0,
+                33.5,
+                -4.6
+              ],
+              "size": [
+                2,
+                5,
+                1
+              ],
+              "uv": [
+                48,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame_r",
+          "parent": "flame_crown",
+          "pivot": [
+            -3.0,
+            33.5,
+            -4.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.0,
+                33.5,
+                -4.6
+              ],
+              "size": [
+                2,
+                5,
+                1
+              ],
+              "uv": [
+                56,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame_side_l",
+          "parent": "flame_crown",
+          "pivot": [
+            4.5,
+            33.5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4.3,
+                33.5,
+                -1.5
+              ],
+              "size": [
+                1,
+                5,
+                3
+              ],
+              "uv": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame_side_r",
+          "parent": "flame_crown",
+          "pivot": [
+            -4.5,
+            33.5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5.3,
+                33.5,
+                -1.5
+              ],
+              "size": [
+                1,
+                5,
+                3
+              ],
+              "uv": [
+                10,
+                14
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

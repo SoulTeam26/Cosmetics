@@ -1,0 +1,325 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.roboDrone",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "pet_root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "drone_body",
+          "parent": "pet_root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                -2,
+                -3
+              ],
+              "size": [
+                6,
+                4,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                2,
+                -0.5
+              ],
+              "size": [
+                1,
+                3,
+                1
+              ],
+              "uv": [
+                55,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "eye",
+          "parent": "drone_body",
+          "pivot": [
+            0,
+            0,
+            -3
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                -1,
+                -3.5
+              ],
+              "size": [
+                3,
+                2,
+                1
+              ],
+              "uv": [
+                27,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ant_ball",
+          "parent": "drone_body",
+          "pivot": [
+            0,
+            6,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                5,
+                -1
+              ],
+              "size": [
+                2,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "thruster",
+          "parent": "drone_body",
+          "pivot": [
+            0,
+            -3,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                -3,
+                -1
+              ],
+              "size": [
+                2,
+                1,
+                2
+              ],
+              "uv": [
+                36,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "arm_l",
+          "parent": "drone_body",
+          "pivot": [
+            3,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3,
+                -1,
+                -1
+              ],
+              "size": [
+                2,
+                1,
+                2
+              ],
+              "uv": [
+                45,
+                11
+              ]
+            },
+            {
+              "origin": [
+                5,
+                -1,
+                -1
+              ],
+              "size": [
+                2,
+                2,
+                2
+              ],
+              "uv": [
+                9,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rotor_l",
+          "parent": "drone_body",
+          "pivot": [
+            6,
+            1.5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3,
+                1,
+                -0.5
+              ],
+              "size": [
+                6,
+                1,
+                1
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "origin": [
+                5.5,
+                1,
+                -3
+              ],
+              "size": [
+                1,
+                1,
+                6
+              ],
+              "uv": [
+                25,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "arm_r",
+          "parent": "drone_body",
+          "pivot": [
+            -3,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                -1,
+                -1
+              ],
+              "size": [
+                2,
+                1,
+                2
+              ],
+              "uv": [
+                54,
+                11
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                -1,
+                -1
+              ],
+              "size": [
+                2,
+                2,
+                2
+              ],
+              "uv": [
+                18,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rotor_r",
+          "parent": "drone_body",
+          "pivot": [
+            -6,
+            1.5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -9,
+                1,
+                -0.5
+              ],
+              "size": [
+                6,
+                1,
+                1
+              ],
+              "uv": [
+                15,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -6.5,
+                1,
+                -3
+              ],
+              "size": [
+                1,
+                1,
+                6
+              ],
+              "uv": [
+                40,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

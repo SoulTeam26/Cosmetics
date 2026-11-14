@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.rubber-duck.idle": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "duck_head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              -8,
+              0,
+              6
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ],
+            "1.5": [
+              -4,
+              0,
+              -6
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

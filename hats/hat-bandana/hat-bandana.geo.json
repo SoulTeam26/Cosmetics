@@ -1,0 +1,233 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.soulclient.hat_bandana",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "bandana_band",
+          "parent": "head",
+          "pivot": [
+            0,
+            32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -5.5,
+                28.25,
+                -5.5
+              ],
+              "size": [
+                11,
+                5,
+                1
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -5.5,
+                28.25,
+                4.5
+              ],
+              "size": [
+                11,
+                5,
+                1
+              ],
+              "uv": [
+                26,
+                0
+              ]
+            },
+            {
+              "origin": [
+                4.5,
+                28.25,
+                -4.5
+              ],
+              "size": [
+                1,
+                5,
+                9
+              ],
+              "uv": [
+                22,
+                20
+              ]
+            },
+            {
+              "origin": [
+                -5.5,
+                28.25,
+                -4.5
+              ],
+              "size": [
+                1,
+                5,
+                9
+              ],
+              "uv": [
+                0,
+                20
+              ]
+            },
+            {
+              "origin": [
+                -4.5,
+                32.25,
+                -4.5
+              ],
+              "size": [
+                9,
+                1,
+                9
+              ],
+              "uv": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bandana_knot",
+          "parent": "bandana_band",
+          "pivot": [
+            0,
+            30.75,
+            6.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                29.25,
+                5.5
+              ],
+              "size": [
+                3,
+                3,
+                2
+              ],
+              "uv": [
+                38,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bandana_tail_left",
+          "parent": "bandana_knot",
+          "pivot": [
+            1.25,
+            29.25,
+            6.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0.25,
+                26.25,
+                5.5
+              ],
+              "size": [
+                2,
+                3,
+                1
+              ],
+              "uv": [
+                50,
+                8
+              ]
+            },
+            {
+              "origin": [
+                0.75,
+                24.25,
+                5.5
+              ],
+              "size": [
+                1,
+                2,
+                1
+              ],
+              "uv": [
+                58,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bandana_tail_right",
+          "parent": "bandana_knot",
+          "pivot": [
+            -1.25,
+            29.25,
+            6.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.25,
+                26.25,
+                5.5
+              ],
+              "size": [
+                2,
+                3,
+                1
+              ],
+              "uv": [
+                50,
+                14
+              ]
+            },
+            {
+              "origin": [
+                -1.75,
+                24.25,
+                5.5
+              ],
+              "size": [
+                1,
+                2,
+                1
+              ],
+              "uv": [
+                58,
+                14
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

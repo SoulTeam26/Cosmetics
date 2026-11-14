@@ -1,0 +1,115 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.grim-reaper-hood",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "grim_reaper_hood",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.5,
+                32.0,
+                -4.5
+              ],
+              "size": [
+                9,
+                3,
+                9
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4.5,
+                24.0,
+                3.0
+              ],
+              "size": [
+                9,
+                8,
+                2
+              ],
+              "uv": [
+                38,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4.5,
+                31.0,
+                -5.2
+              ],
+              "size": [
+                9,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                14
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                24.5,
+                -4.2
+              ],
+              "size": [
+                7,
+                7,
+                1
+              ],
+              "uv": [
+                24,
+                14
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                31.0,
+                4.5
+              ],
+              "size": [
+                3,
+                4,
+                4
+              ],
+              "pivot": [
+                0,
+                32,
+                4.5
+              ],
+              "rotation": [
+                25,
+                0,
+                0
+              ],
+              "uv": [
+                42,
+                14
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.candle-hat",
+        "texture_width": 64,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "candle_hat",
+          "parent": "head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.5,
+                32.0,
+                -3.5
+              ],
+              "size": [
+                7,
+                1,
+                7
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                33.0,
+                -1.5
+              ],
+              "size": [
+                3,
+                6,
+                3
+              ],
+              "uv": [
+                30,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                39.0,
+                -0.5
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                44,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flame",
+          "parent": "candle_hat",
+          "pivot": [
+            0,
+            40.0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.0,
+                40.0,
+                -1.0
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                50,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
